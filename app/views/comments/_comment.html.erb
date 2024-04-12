@@ -1,21 +1,3 @@
-<div id="<%= dom_id comment %>">
-  <p>
-    <strong>Link:</strong>
-    <%= comment.link_id %>
-  </p>
-
-  <p>
-    <strong>Body:</strong>
-    <%= comment.body %>
-  </p>
-
-  <p>
-    <strong>User:</strong>
-    <%= comment.user_id %>
-  </p>
-
-</div>
-
 <%= div_for(comment) do %>
  <div class="comments_wrapper clearfix">
   <div class="pull-left">
